@@ -2,9 +2,10 @@
 
 ![Design preview for the Advice generator app coding challenge](./Static/design/desktop-design.jpg)
 
+
 ## Welcome! 👋
 
-
+Esta es una solución al [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges
 
 **Para hacer este proyecto se  necesitó una comprensión básica de HTML, CSS y JavaScript.**
 
