@@ -90,6 +90,9 @@ h2{
     box-shadow: 0 0 40px var(--Neon-Green) /* sombra */
 }
 
+.active{
+    pointer-events: none;
+}
 
 footer{
     margin-bottom: 15px;
@@ -114,7 +117,6 @@ footer p a{
 footer p a:hover{
     color: var(--Light-Cyan);
 }
-
 
 
 /* Responsive */

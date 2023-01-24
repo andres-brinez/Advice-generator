@@ -3,6 +3,9 @@ import { getData } from "./api.js";
 const Containeradvice = document.querySelector('.Advice');
 const IdAdvice=document.querySelector('#idAdvice')
 const ButtonRefresh= document.querySelector('.ButtonRefresh')
+const button = document.querySelector(".roll")
+
+let rot = 360
 
 const showAdvice = async () => {
     const data = await getData();
@@ -20,7 +23,17 @@ const showAdvice = async () => {
 
 window.onload =  showAdvice();
 
-ButtonRefresh.addEventListener('click',showAdvice);
+ButtonRefresh.addEventListener('click',()=>{
+    rot += 360
+    button.style.transform = "translateY(0) rotate("+rot+"deg)" // estilos para hacer la rotación 
+    button.classList.add("active")
+
+    showAdvice()
+    setTimeout(() => {
+        button.classList.remove("active")
+    }, 1000);
+    ;
+});
 
 
 
