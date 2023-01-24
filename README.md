@@ -20,4 +20,11 @@ Los usuarios deben poder:
 - Generar un nuevo consejo haciendo clic en el ícono de dados
 
 
+## Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+
+
 **Gracias   por leer !** 🚀
