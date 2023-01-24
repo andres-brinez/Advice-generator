@@ -17,7 +17,12 @@
     <div class="ContainerAdvice">
       <h2>Advice #<span id="idAdvice"></span></h2>
       <p class="Advice">Loading ...</p>
-      <img class="divider" src="./Static/images/pattern-divider-desktop.svg" alt="divider">
+      <!-- Imagen responsive -->
+      <picture>
+        <source media="(max-width:768px)" srcset="./Static/images/pattern-divider-mobile.svg">
+        <img class="divider" src="./Static/images/pattern-divider-desktop.svg" alt="divider">
+      </picture>
+      
       <button class="ButtonRefresh" type="button">
         <img src="./Static/images/icon-dice.svg" alt="">
       </button>
