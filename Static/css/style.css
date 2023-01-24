@@ -117,3 +117,21 @@ footer p a:hover{
 
 
 
+/* Responsive */
+
+@media screen and (max-width: 768px){
+    
+    .ContainerAdvice{
+        width: 90%;
+
+    }
+   
+    .ButtonRefresh{
+        bottom: 20%;
+    }
+    
+    
+    footer p{
+        font-size: 1rem;
+    } 
+}
