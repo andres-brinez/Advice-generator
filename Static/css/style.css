@@ -42,11 +42,11 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center; /*Horizontal*/
-    /* border: solid 1px red; */
     padding: 30px 50px;
     max-width: 550px;
     background-color: var(--Dark-Grayish-Blue);
     border-radius: 10px;
+    position: relative;
 }
 
 h2{
@@ -81,7 +81,7 @@ h2{
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     position: absolute;
-    bottom: 20%;
+    bottom: -7%;
 }
 
 
@@ -126,10 +126,6 @@ footer p a:hover{
     .ContainerAdvice{
         width: 90%;
 
-    }
-   
-    .ButtonRefresh{
-        bottom: 20%;
     }
     
     
